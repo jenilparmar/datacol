@@ -102,7 +102,7 @@ const MFCCPage = () => {
       </center>
       <br />
       <center>
-        <button onClick={startRecording} className='bg-red-400 p-3' disabled={recording}>
+        <button onClick={startRecording} className='bg-red-400 p-3 active:scale-95' disabled={recording}>
           {recording ? 'Recording...' : 'Start Recording'}
         </button>
         <br />
